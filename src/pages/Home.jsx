@@ -20,7 +20,7 @@ export const Home = () => {
             <div className="container pt-5">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-5 mt-5 pt-5">
-                  <h1 className="fw-bold mt-5 text-white hero-h1">The Workforce you Can Bank On</h1>
+                  <h1 className="fw-bold mt-5 display-4 text-white hero-h1">The Workforce you Can Bank On</h1>
                   <p className="text-white mt-4" style={{fontSize: '14px'}}>MyRefscore.com is the <strong>first and only</strong> platform where you can get an <strong>unbiased reference scores of a potential employee</strong>, so you can make informed decisions on whether they are the right person for your job.</p>
                   <div className="input-group">
                     <input type="text" className="form-control" placeholder="search here..."></input>

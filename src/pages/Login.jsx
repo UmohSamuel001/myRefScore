@@ -28,7 +28,7 @@ export const Login = () => {
                 </div>
             </div>
         </div>
-        <div className="container">
+        {/* <div className="container"> */}
           <h6 className='mt-3 px-2'>My Refences & Ratings</h6>
           <div class="row gap-3 align-items-center justify-content-center mt-3">
 
@@ -57,7 +57,7 @@ export const Login = () => {
             />
 
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </div>
     <div class="col-lg-3 px-2">
