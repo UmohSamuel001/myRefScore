@@ -8,6 +8,7 @@ import Fedexdp from '../img/fedex.png';
 import Versacedp from '../img/starbsloh.jpg';
 import { Button, ButtonGroup } from 'react-bootstrap';
 import { Sidebar } from '../components/Sidebar';
+import { RatingStars } from '../components/RatingStars';
 
 
 export const Login = () => {
@@ -26,7 +27,7 @@ export const Login = () => {
           </div>
         </div>
         <div className="container align-items-center justify-content-center">
-          <h6 className='mt-3 px-2'>My Refences & Ratings</h6>
+          <h6 className='mt-3 px-2' style={{fontSize: '17px'}}>My Refences & Ratings</h6>
           <div class="row g-3 px-2 align-items-center justify-content-center mt-1">
             <RatingComponent image={amazondp} name={'Amazon'} 
                 overallRating={3.5} competenceRating={3} productivityRating={3} integrityRating={4} 
@@ -93,18 +94,22 @@ export const Login = () => {
                   <img src={ProfilePic} className='' alt="profile" />
               </div>
               <span>
-                  <h6 className='color-one fw-bold' style={{fontSize: '19px'}}>Babajide Ayodele</h6>
+                  <h6 className='color-one fw-bold' style={{fontSize: '21px'}}>Babajide Ayodele</h6>
                   <span>
                       <p style={{fontSize: '12px',  marginTop: '-8px'}} className='text-secondary'>Accountant</p>
                       <p style={{fontSize: '12px', marginTop: '-20px'}} className='text-secondary'>Lagos, Nigeria</p>
                   </span>
               </span>
-          </div><br /><br />
-          <div className='px-3 bg-'>
-            <p style={{fontSize: '12px',  marginTop: '-8px'}} className='text-secondary'>I'm an accounting professional with ICAN and a Bachelor's degree in accounting and fincance.</p>
-            <p style={{fontSize: '12px', marginTop: '-20px'}} className='text-secondary'>I have honed my skill by working for diverse companies as both full-time and part-time Accountant.</p>
           </div>
-          <div className='text-center mt-4'>
+          <div className='px-3' style={{lineHeight: '18px'}}>
+            <RatingStars value={4}  />
+            <small><strong style={{color: 'rgb(0, 155, 155)'}}>Average Reference Score</strong></small>
+          </div><br />
+          <div className='px-3 bg-'>
+            <p style={{fontSize: '13px',  marginTop: '-8px'}} className='text-secondary'>I'm an accounting professional with ICAN and a Bachelor's degree in accounting and fincance.</p>
+            <p style={{fontSize: '13px', marginTop: '-20px'}} className='text-secondary'>I have honed my skill by working for diverse companies as both full-time and part-time Accountant.</p>
+          </div>
+          <div className='text-center mt-5'>
             <ButtonGroup aria-label="First group">
               <Button style={{ backgroundColor: 'cornflowerblue', border: 'none' }}>profile</Button>
               <Button style={{ backgroundColor: 'crimson', border: 'none' }}>find jobs</Button>

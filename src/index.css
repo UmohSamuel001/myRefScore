@@ -152,11 +152,11 @@
   gap: 15px;
   color: #6c757d;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
 }
 .sidenav-nav li a ion-icon, .mobile-sidenav-nav li a ion-icon {
-  transform: translateY(2px);
-  font-size: 18px;
+  transform: translateY(1px);
+  font-size: 19px;
   color: #003a91;
 }
 .sidenav-nav .logout, .mobile-sidenav-nav .logout {
@@ -221,31 +221,35 @@
   height: 45px !important;
 }
 .rating small{
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
 }
+.rating h5 {
+  margin-bottom: '-10px';
+  font-size: 18.5px;
+}
 .rating {
-  width: 300px !important;
+  /* width: 300px !important; */
 }
 .rates {
   margin-top: -8px;
 }
 .review h6 {
-  font-size: 13px;
+  font-size: 15px;
   transform: translateY(3px);
 }
 .review p {
-  line-height: 14px;
-  font-size: 11px;
-  margin-top: -2px;
+  line-height: 16px;
+  font-size: 13px;
+  margin-top: -1px;
 }
 .contact {
   background-color: aliceblue;
   padding: 5px;
 }
 .bg-one-ci p {
-  font-size: 15px;
-  margin-bottom: 6px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 .bg-two {
   background-color: aliceblue;

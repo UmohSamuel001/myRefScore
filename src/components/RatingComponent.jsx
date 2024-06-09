@@ -12,7 +12,7 @@ export const RatingComponent = ({ image, name, overallRating, competenceRating, 
                     <img src={image} alt='' />
                 </div>
                 <div className=''>
-                    <h6 className='fw-bold color-one' style={{marginBottom: '-10px'}}>{name}</h6>
+                    <h5 className='fw-bold color-one'>{name}</h5>
                     <div className="mt-2">
                         <div className='d-flex align-items-center rates'>
                             <small className='color-one'>Overall performance</small>
@@ -38,7 +38,7 @@ export const RatingComponent = ({ image, name, overallRating, competenceRating, 
                     <FontAwesomeIcon icon={faComment} className='color-one' />
                     <h6 className='fw-semibold color-one'>{reviewTitle}</h6>
                 </div>
-                <p className='px-4 text-secondary'>{reviewBody}</p>
+                <p className='px-2 ms-3 text-secondary'>{reviewBody}</p>
             </div>
         </div>
         </div>
