@@ -5,7 +5,7 @@ import { RatingStars } from './RatingStars';
 
 export const RatingComponent = ({ image, name, overallRating, competenceRating, productivityRating, integrityRating, reviewTitle, reviewBody }) => {
     return (
-        <div className='px-2 pt-2 bg-two shadow-2 rating rounded'>
+        <div className='px-2 pt-2 bg-two shadow rating rounded'>
             <div className="d-flex gap-3">
                 <div className="rating-dp">
                     <img src={image} alt='' />
