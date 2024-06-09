@@ -18,17 +18,42 @@ export const Login = () => {
     <div id="main" style={{marginLeft: '19%', height: '100vh'}}>
   <div class="row h-100">
     <div class="col-lg-9">
-      <div className="bg-white h-100 pt-4">
-        <div className='row px-3'>
-            <div className="col-lg-7"></div>
-            <div className="col-lg-5">
-                <div className="input-group">
-                    <input type="text" className="form-control" placeholder="search here..."></input>
-                    <span className="input-group-text bg-warning px-3 py-2" id="basic-addon1"><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
-                </div>
-            </div>
+      <div className="bg-white h-100 pt-4 ">
+        <div className='d-flex justify-content-end'>
+          <div className="input-group me-4" style={{width: '40%'}}>
+            <input type="text" className="form-control" placeholder="search here..."></input>
+            <span className="input-group-text bg-warning px-3 py-2" id="basic-addon1"><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
+          </div>
         </div>
-        {/* <div className="container"> */}
+        <div className="container align-items-center justify-content-center">
+          <h6 className='mt-3 px-2'>My Refences & Ratings</h6>
+          <div class="row g-3 px-2 align-items-center justify-content-center mt-1">
+            <RatingComponent image={amazondp} name={'Amazon'} 
+                overallRating={3.5} competenceRating={3} productivityRating={3} integrityRating={4} 
+                reviewTitle={'Very smart and reliable'} 
+                reviewBody={'this guy is the most selfless guy I know. Looking for a good guy? employ him.'}
+            />
+
+              <RatingComponent image={Levisdp} name={"Levi's"} 
+                overallRating={4} competenceRating={2.5} productivityRating={2.5} integrityRating={4} 
+                reviewTitle={'Very smart and reliable'} 
+                reviewBody={'this guy is the most selfless guy I know. Looking for a good guy? employ him.'}
+            />
+            <RatingComponent image={Versacedp} name={'Versace'} 
+              overallRating={3} competenceRating={4} productivityRating={2} integrityRating={4}
+              reviewTitle={'Very smart and reliable'} 
+              reviewBody={'this guy is the most selfless guy I know. Looking for a good guy? employ him.'}
+            />
+
+            <RatingComponent image={Fedexdp} name={'FedEx'} 
+              overallRating={4} competenceRating={3} productivityRating={3} integrityRating={5} 
+              reviewTitle={'Very smart and reliable'} 
+              reviewBody={'this guy is the most selfless guy I know. Looking for a good guy? employ him.'} 
+            />
+          </div>
+          
+        </div>
+        {/* <div className="container bg-danger">
           <h6 className='mt-3 px-2'>My Refences & Ratings</h6>
           <div class="row gap-3 align-items-center justify-content-center mt-3">
 
@@ -57,7 +82,7 @@ export const Login = () => {
             />
 
           </div>
-        {/* </div> */}
+        </div> */}
       </div>
     </div>
     <div class="col-lg-3 px-2">

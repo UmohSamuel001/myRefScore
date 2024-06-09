@@ -5,7 +5,8 @@ import { RatingStars } from './RatingStars';
 
 export const RatingComponent = ({ image, name, overallRating, competenceRating, productivityRating, integrityRating, reviewTitle, reviewBody }) => {
     return (
-        <div className='px-2 pt-2 bg-two shadow rating rounded'>
+        <div className="col-lg-6">
+            <div className='px-2 pt-2 pb-1 bg-two shadow-sm rating rounded'>
             <div className="d-flex gap-3">
                 <div className="rating-dp">
                     <img src={image} alt='' />
@@ -39,6 +40,7 @@ export const RatingComponent = ({ image, name, overallRating, competenceRating, 
                 </div>
                 <p className='px-4 text-secondary'>{reviewBody}</p>
             </div>
+        </div>
         </div>
     )
 }
