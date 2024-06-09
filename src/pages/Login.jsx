@@ -28,11 +28,11 @@ export const Login = () => {
         <div className="container align-items-center justify-content-center">
           <h6 className='mt-3 px-2'>My Refences & Ratings</h6>
           <div class="row g-3 px-2 align-items-center justify-content-center mt-1">
-{/*             <RatingComponent image={amazondp} name={'Amazon'} 
+            <RatingComponent image={amazondp} name={'Amazon'} 
                 overallRating={3.5} competenceRating={3} productivityRating={3} integrityRating={4} 
                 reviewTitle={'Very smart and reliable'} 
                 reviewBody={'this guy is the most selfless guy I know. Looking for a good guy? employ him.'}
-            /> */}
+            />
 
               <RatingComponent image={Levisdp} name={"Levi's"} 
                 overallRating={4} competenceRating={2.5} productivityRating={2.5} integrityRating={4} 
