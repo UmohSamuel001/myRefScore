@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/myrefscore/static/css/main.dc057cba.css",
-    "main.js": "/myrefscore/static/js/main.cddb8397.js",
+    "main.css": "/myrefscore/static/css/main.fc85ed2f.css",
+    "main.js": "/myrefscore/static/js/main.025bd1c9.js",
     "static/js/738.e0693ea4.chunk.js": "/myrefscore/static/js/738.e0693ea4.chunk.js",
     "static/js/284.d97d7191.chunk.js": "/myrefscore/static/js/284.d97d7191.chunk.js",
     "static/js/923.1ee3987b.chunk.js": "/myrefscore/static/js/923.1ee3987b.chunk.js",
     "static/js/627.0b8accbd.chunk.js": "/myrefscore/static/js/627.0b8accbd.chunk.js",
     "static/js/453.c70500fe.chunk.js": "/myrefscore/static/js/453.c70500fe.chunk.js",
     "static/media/fedex.png": "/myrefscore/static/media/fedex.86ff141efb1a16202f15.png",
+    "static/media/hero-woman_prev_ui.png": "/myrefscore/static/media/hero-woman_prev_ui.e5e677e0460a75400218.png",
     "static/media/pic3.png": "/myrefscore/static/media/pic3.8865a4d7cd4f77301035.png",
     "static/media/pic1.png": "/myrefscore/static/media/pic1.520ed1fa9f1cfa3280d4.png",
     "static/media/img30.jpg": "/myrefscore/static/media/img30.ff37c2b9a9529b268792.jpg",
     "static/media/starbsloh.jpg": "/myrefscore/static/media/starbsloh.5c5ccc9120f1ba34d403.jpg",
+    "static/media/recently.png": "/myrefscore/static/media/recently.c42d392db047c340082f.png",
     "static/media/for-company-chart.png": "/myrefscore/static/media/for-company-chart.4a271b6c3dbc0a58e5a1.png",
     "static/media/pic10.jpg": "/myrefscore/static/media/pic10.c13c01bec2b86b526659.jpg",
     "static/media/amazz.jpg": "/myrefscore/static/media/amazz.a07d26b3636e9d6936f7.jpg",
     "static/media/why-refscore.png": "/myrefscore/static/media/why-refscore.75e737d99ba178b0a824.png",
-    "static/media/curve3.png": "/myrefscore/static/media/curve3.a57da16cb66772e0d363.png",
+    "static/media/newcurve.png": "/myrefscore/static/media/newcurve.aad90bec71420ec8ac04.png",
     "static/media/Levis-Logo-Design-1024x683.webp": "/myrefscore/static/media/Levis-Logo-Design-1024x683.e73ee9927d574fdb4bd3.webp",
     "index.html": "/myrefscore/index.html",
-    "main.dc057cba.css.map": "/myrefscore/static/css/main.dc057cba.css.map",
-    "main.cddb8397.js.map": "/myrefscore/static/js/main.cddb8397.js.map",
+    "main.fc85ed2f.css.map": "/myrefscore/static/css/main.fc85ed2f.css.map",
+    "main.025bd1c9.js.map": "/myrefscore/static/js/main.025bd1c9.js.map",
     "738.e0693ea4.chunk.js.map": "/myrefscore/static/js/738.e0693ea4.chunk.js.map",
     "284.d97d7191.chunk.js.map": "/myrefscore/static/js/284.d97d7191.chunk.js.map",
     "923.1ee3987b.chunk.js.map": "/myrefscore/static/js/923.1ee3987b.chunk.js.map",
@@ -28,7 +30,7 @@
     "453.c70500fe.chunk.js.map": "/myrefscore/static/js/453.c70500fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc057cba.css",
-    "static/js/main.cddb8397.js"
+    "static/css/main.fc85ed2f.css",
+    "static/js/main.025bd1c9.js"
   ]
 }
