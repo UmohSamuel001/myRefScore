@@ -13,10 +13,10 @@ import { RatingStars } from '../components/RatingStars';
 
 export const Login = () => {
     return (
-        <div className="bg-two">
+        <div className="bg-light">
     <Sidebar />
 
-    <div id="main" style={{marginLeft: '19%', height: '100vh'}}>
+    <div id="main">
   <div class="row h-100">
     <div class="col-lg-9">
       <div className="bg-white h-100 pt-4 ">

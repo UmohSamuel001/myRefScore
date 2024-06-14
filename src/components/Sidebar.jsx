@@ -4,7 +4,7 @@ import { homeOutline, analyticsOutline, peopleOutline, notificationsOutline, per
 
 export const Sidebar = () => {
     return (
-        <div className="d-flex justify-content-center bg-white" id="mySidebar">
+        <div className="d-flex justify-content-center bg-white shadow-sm" id="mySidebar">
       <div className="sidenav-wrapper p-3">
         <span className="text-center">
           <h5 className="fw-bold color-one mt-2 mb-4">My Ref Score</h5>
