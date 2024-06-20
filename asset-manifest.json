@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myrefscore/static/css/main.abbec13f.css",
-    "main.js": "/myrefscore/static/js/main.79f14cb2.js",
+    "main.css": "/myrefscore/static/css/main.ae16167c.css",
+    "main.js": "/myrefscore/static/js/main.dfce2b71.js",
     "static/js/738.e0693ea4.chunk.js": "/myrefscore/static/js/738.e0693ea4.chunk.js",
     "static/js/284.d97d7191.chunk.js": "/myrefscore/static/js/284.d97d7191.chunk.js",
     "static/js/923.1ee3987b.chunk.js": "/myrefscore/static/js/923.1ee3987b.chunk.js",
@@ -22,10 +22,12 @@
     "static/media/why-refscore.png": "/myrefscore/static/media/why-refscore.75e737d99ba178b0a824.png",
     "static/media/howto2.png": "/myrefscore/static/media/howto2.c7400be47f920e0868c0.png",
     "static/media/newcurve.png": "/myrefscore/static/media/newcurve.aad90bec71420ec8ac04.png",
+    "static/media/playstore.png": "/myrefscore/static/media/playstore.8ff003b71d27380d7a24.png",
+    "static/media/appstore.png": "/myrefscore/static/media/appstore.46aafe8ccf2d844b4b8e.png",
     "static/media/Levis-Logo-Design-1024x683.webp": "/myrefscore/static/media/Levis-Logo-Design-1024x683.e73ee9927d574fdb4bd3.webp",
     "index.html": "/myrefscore/index.html",
-    "main.abbec13f.css.map": "/myrefscore/static/css/main.abbec13f.css.map",
-    "main.79f14cb2.js.map": "/myrefscore/static/js/main.79f14cb2.js.map",
+    "main.ae16167c.css.map": "/myrefscore/static/css/main.ae16167c.css.map",
+    "main.dfce2b71.js.map": "/myrefscore/static/js/main.dfce2b71.js.map",
     "738.e0693ea4.chunk.js.map": "/myrefscore/static/js/738.e0693ea4.chunk.js.map",
     "284.d97d7191.chunk.js.map": "/myrefscore/static/js/284.d97d7191.chunk.js.map",
     "923.1ee3987b.chunk.js.map": "/myrefscore/static/js/923.1ee3987b.chunk.js.map",
@@ -33,7 +35,7 @@
     "453.c70500fe.chunk.js.map": "/myrefscore/static/js/453.c70500fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abbec13f.css",
-    "static/js/main.79f14cb2.js"
+    "static/css/main.ae16167c.css",
+    "static/js/main.dfce2b71.js"
   ]
 }
