@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myrefscore/static/css/main.87fd2729.css",
+    "main.css": "/myrefscore/static/css/main.05127e19.css",
     "main.js": "/myrefscore/static/js/main.1ce416b7.js",
     "static/js/738.e0693ea4.chunk.js": "/myrefscore/static/js/738.e0693ea4.chunk.js",
     "static/js/284.d97d7191.chunk.js": "/myrefscore/static/js/284.d97d7191.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/appstore.png": "/myrefscore/static/media/appstore.46aafe8ccf2d844b4b8e.png",
     "static/media/Levis-Logo-Design-1024x683.webp": "/myrefscore/static/media/Levis-Logo-Design-1024x683.e73ee9927d574fdb4bd3.webp",
     "index.html": "/myrefscore/index.html",
-    "main.87fd2729.css.map": "/myrefscore/static/css/main.87fd2729.css.map",
+    "main.05127e19.css.map": "/myrefscore/static/css/main.05127e19.css.map",
     "main.1ce416b7.js.map": "/myrefscore/static/js/main.1ce416b7.js.map",
     "738.e0693ea4.chunk.js.map": "/myrefscore/static/js/738.e0693ea4.chunk.js.map",
     "284.d97d7191.chunk.js.map": "/myrefscore/static/js/284.d97d7191.chunk.js.map",
@@ -35,7 +35,7 @@
     "453.c70500fe.chunk.js.map": "/myrefscore/static/js/453.c70500fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87fd2729.css",
+    "static/css/main.05127e19.css",
     "static/js/main.1ce416b7.js"
   ]
 }
