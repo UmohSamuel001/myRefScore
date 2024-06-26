@@ -56,7 +56,7 @@ export const Home = () => {
 
 
     return (
-        <div>
+        <div className="body-width">
           <Navbar toggleSidebar={handleShow} logoColor="text-white"  />
           {/* <MobileSidebar isOpen={isSidebarOpen} /> */}
           <OffCanvas show={showOffcanvas} handleClose={handleClose} />
@@ -144,7 +144,7 @@ export const Home = () => {
               </div>
 
               <div className="d-flex align-items-center justify-content-center mobile">
-                <img src={howTo3} alt="" className="howto-img3 mb-5 mt-2" />
+                <img src={howTo3} alt="" className="howto-img3 mb-5 mt-2 mobile" />
               </div>
 
               <div className="row align-items-center justify-content-center mt-5 pt-4" style={{transform: 'translateY(-100px)'}}>

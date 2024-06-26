@@ -16,7 +16,7 @@ export const Job = () => {
 
     return (
         <div className="bg-four">
-            <Navbar toggleSidebar={handleShow} logoColor="color-one" />
+            <Navbar toggleSidebar={handleShow} logoColor="color-one" togglerColor="navbar-toggler-custom" />
             <OffCanvas show={showOffcanvas} handleClose={handleClose} />
 
             <div className="container-fluid resize">

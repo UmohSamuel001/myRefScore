@@ -6,6 +6,9 @@
 body {
   overflow-x: hidden !important;
 }
+.body-width {
+  overflow-x: hidden !important;
+}
 #mynav {
   position: relative;
   z-index: 10;
@@ -142,7 +145,7 @@ body {
   color: #1c3760;
 }
 .bg-one {
-  background-color: #1c3760;
+  background-color: rgb(28, 55, 96);
 }
 
 .sidenav-nav, .mobile-sidenav-nav {
@@ -427,10 +430,16 @@ body {
   body {
     overflow-x: hidden !important;
   }
+  .body-width {
+    overflow-x: hidden !important;
+  }
 }
 
 @media screen and (max-width: 550px) {
   body {
+    overflow-x: hidden !important;
+  }
+  .body-width {
     overflow-x: hidden !important;
   }
   .curve {
@@ -846,4 +855,7 @@ stroke-dasharray: 12 63;
 .search-result {
   border-bottom: 1px solid rgb(158, 158, 158) !important;
   /* background-color: rebeccapurple; */
+}
+.navbar-toggler-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(28, 55, 96)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
