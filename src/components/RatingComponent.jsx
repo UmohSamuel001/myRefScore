@@ -36,7 +36,7 @@ export const RatingComponent = ({ image, name, overallRating, competenceRating, 
             <div className='mt-1 px-2 review'>
                 <div className='d-flex gap-2 align-items-center'>
                     <FontAwesomeIcon icon={faComment} className='color-one' />
-                    <h6 className='fw-semibold color-one'>{reviewTitle}</h6>
+                    <h5 className='fw-semibold color-one'>{reviewTitle}</h5>
                 </div>
                 <p className='px-2 ms-3 text-secondary'>{reviewBody}</p>
             </div>

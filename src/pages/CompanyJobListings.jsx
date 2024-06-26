@@ -17,16 +17,18 @@ import Levisdp from '../img/Levis-Logo-Design-1024x683.webp';
 
 export const CompanyJobListings = () => {
     return (
-        <div className="bg-two">
+        <div className="bg-four">
             <Sidebar />
             <div id="main2">
                 <div className="company-navbar px-4 py-3">
                     <div className="d-flex align-items-center justify-content-between">
-                        <span className="d-flex gap-3 align-items-center justify-content-start ms-3">
+                        <span className="d-flex gap-3 align-items-center justify-content-start">
                             <div className="logo-img" style={{width: '35px', height: '35px'}}>
                                 <img src={CompanyLogo} className='rounded-circle' alt="company logo" />
                             </div>
-                            <h5 className="fw-semibold text-white mt-1">Sharon Hospitals Limited</h5>
+                            <div className="name-div">
+                                <h5 className="fw-semibold text-white mt-1">Sharon Hospitals Limited</h5>
+                            </div>
                         </span>
                         <div className="d-flex gap-3 me-3">
                             <IonIcon icon={qrCodeOutline} className="text-white" />
@@ -35,7 +37,7 @@ export const CompanyJobListings = () => {
                         </div>
                     </div><br />
                     <div className="d-flex align-items-center justify-content-between mt-2 pb-5">
-                        <div className="d-flex gap-3 ms-3">
+                        <div className="d-flex gap-3">
                             <div className="d-flex">
                                 <div className="flex-dp-div right">
                                     <img src={pic1} alt="employee dp" />
@@ -48,19 +50,19 @@ export const CompanyJobListings = () => {
                                 </div>
                             </div>
                             <button className="btn btn-outline-danger btn-sm text-white">
-                                <IonIcon icon={addOutline} /> add employee
+                                <IonIcon icon={addOutline} />
                             </button>
                             <button className="btn btn-sm text-white bg-three-btn">
-                            <IonIcon icon={albumsOutline} /> job manager
+                                <IonIcon icon={albumsOutline} />
                             </button>
                         </div>
 
                         <div className="d-flex gap-3">
-                            <button className="btn btn-info btn-sm text-white">
-                                <IonIcon icon={attachOutline} /> post job
+                            <button className="btn btn-info fs-6 btn-sm text-white">
+                                <IonIcon icon={attachOutline} />
                             </button>
                             <button className="btn btn-secondary btn-sm text-white">
-                                <FontAwesomeIcon icon={faComment} /> messages
+                                <FontAwesomeIcon icon={faComment} />
                             </button>
                         </div>
                     </div>
