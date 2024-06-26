@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myrefscore/static/css/main.05127e19.css",
-    "main.js": "/myrefscore/static/js/main.1ce416b7.js",
+    "main.css": "/myrefscore/static/css/main.818f5bdd.css",
+    "main.js": "/myrefscore/static/js/main.900a2d50.js",
     "static/js/738.e0693ea4.chunk.js": "/myrefscore/static/js/738.e0693ea4.chunk.js",
     "static/js/284.d97d7191.chunk.js": "/myrefscore/static/js/284.d97d7191.chunk.js",
     "static/js/923.1ee3987b.chunk.js": "/myrefscore/static/js/923.1ee3987b.chunk.js",
@@ -21,13 +21,14 @@
     "static/media/amazz.jpg": "/myrefscore/static/media/amazz.a07d26b3636e9d6936f7.jpg",
     "static/media/why-refscore.png": "/myrefscore/static/media/why-refscore.75e737d99ba178b0a824.png",
     "static/media/howto2.png": "/myrefscore/static/media/howto2.c7400be47f920e0868c0.png",
+    "static/media/job-removebg-preview.png": "/myrefscore/static/media/job-removebg-preview.aaa21861205604347d47.png",
     "static/media/newcurve.png": "/myrefscore/static/media/newcurve.aad90bec71420ec8ac04.png",
     "static/media/playstore.png": "/myrefscore/static/media/playstore.8ff003b71d27380d7a24.png",
     "static/media/appstore.png": "/myrefscore/static/media/appstore.46aafe8ccf2d844b4b8e.png",
     "static/media/Levis-Logo-Design-1024x683.webp": "/myrefscore/static/media/Levis-Logo-Design-1024x683.e73ee9927d574fdb4bd3.webp",
     "index.html": "/myrefscore/index.html",
-    "main.05127e19.css.map": "/myrefscore/static/css/main.05127e19.css.map",
-    "main.1ce416b7.js.map": "/myrefscore/static/js/main.1ce416b7.js.map",
+    "main.818f5bdd.css.map": "/myrefscore/static/css/main.818f5bdd.css.map",
+    "main.900a2d50.js.map": "/myrefscore/static/js/main.900a2d50.js.map",
     "738.e0693ea4.chunk.js.map": "/myrefscore/static/js/738.e0693ea4.chunk.js.map",
     "284.d97d7191.chunk.js.map": "/myrefscore/static/js/284.d97d7191.chunk.js.map",
     "923.1ee3987b.chunk.js.map": "/myrefscore/static/js/923.1ee3987b.chunk.js.map",
@@ -35,7 +36,7 @@
     "453.c70500fe.chunk.js.map": "/myrefscore/static/js/453.c70500fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05127e19.css",
-    "static/js/main.1ce416b7.js"
+    "static/css/main.818f5bdd.css",
+    "static/js/main.900a2d50.js"
   ]
 }
